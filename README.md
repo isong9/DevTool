@@ -26,6 +26,21 @@
 ```
 - 후 : 풀 받아 오기
 
+# 시나리오 C : 커밋 쪼개기
+- 선 : README.md 의 첫줄, 마지막 줄 수정
+- 선 : 각 line별로 커밋 하고 (커밋 2개) 푸시하기
+- 후 : head-1.md / body-1.md 파일 만들고 내용 작성
+- 후 : 각 파일별로 커밋하고(커밋 2개) 푸시하기(!!! rebase) 하여 풀(git pull --rebase) 받기 : histroy oneline 유지)
+- 순서를 바꿔서 다시 해보기(head-2.md/ body-2.md)
+
+# 시나리오 D : stash
+- 선 : README.md의 아무 내용이나 수정중
+- 후 : README.md 수정 후 커밋 & 푸시
+- 선 : 풀 받기(!!!), stash 한 후 풀 받기
+- 선 : stash pop 하여 마저 수정하고 커밋 & 푸시
+- 후 : 풀 받기
+- 순서를 바꿔 다시 해보기
+
 ## 송용호 1'st README
 ## 송용호 2'st README
 
