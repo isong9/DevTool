@@ -6,3 +6,5 @@
 1.송용호 3'st README
 
 - list add
+
+마지막 줄 수정 
