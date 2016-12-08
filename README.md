@@ -1,5 +1,7 @@
 # github 연습 -- 송용호 수정
 
+https://git-scm.com/book/
+
 # 시나리오 A
 - 선 : 레파지토리 생성,README.md 파일에 노트작성  후 커밋 & 푸시
 - 후 : 리모트에서 새 프로젝트 clone 받기
@@ -62,6 +64,19 @@
 - 선 : hotfix 브랜치 풀 받고 코드 검토 후 master 로 머지 & master 푸시
 - 후 : master 풀
 - 순서를 바꿔 다시 해보기
+
+# 시나리오 G : 풀리퀘스트(github에서 제공하는 기능)
+- 선 : Github 이슈에 오타 발견 이슈 등록
+- 후 : hotfix 브랜치를 만들고 오타 수정후 커밋(메시지에 fixed #1포함) 후 origin에 hotfix 브랜치 푸시
+- 후 : pull-request 생성
+- 선 : 리뷰 후 머지하기(버튼 클릭)
+ 
+
+# GIT 의 키타 기능들
+- git setting ... 교제 참조
+- git notes ...
+- git hooks (.git/hooks) - 테스트 통과 못한 코드는 커밋 못하게 막는다든지..등
+- git submodule
 
 
 ## 송용호 1'st README
